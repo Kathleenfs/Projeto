@@ -20,7 +20,7 @@ public class OrdemServico {
 	private double valor;
 	private Time hora_entrada;
 	private Time hora_saida;
-	
+
 	
 	
 	public OrdemServico(Long id, double valor, Time hora_entrada, Time hora_saida) {
