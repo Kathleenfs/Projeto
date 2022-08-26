@@ -17,6 +17,13 @@ public class Cliente {
 	private  int telefone;
 	
 	
+	public Cliente(Long id, String nome, int telefone) {
+		super();
+		Id = id;
+		this.nome = nome;
+		this.telefone = telefone;
+	}
+	
 	public Long getId() {
 		return Id;
 	}
