@@ -2,6 +2,12 @@ package com.petshop.projeto.entities;
 
 import java.sql.Time;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="tb_ordem")
 public class OrdemServico {
 	
 	
